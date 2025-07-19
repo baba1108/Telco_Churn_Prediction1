@@ -1,2 +1,18 @@
-# Telco_Churn_Prediction1
-Ce projet est une application interactive développée avec Streamlit pour prédire le risque de churn (désabonnement) des clients d’un opérateur télécom. Il repose sur des techniques avancées de data science, de prétraitement, et de machine learning appliquées à un jeu de données réel.
+# 📊 Telco Churn Prediction Dashboard
+
+Application Streamlit interactive permettant de prédire le risque de désabonnement (churn) des clients d’un opérateur télécom à partir d’un jeu de données réel.
+
+## 🔍 Fonctionnalités
+
+- Vue d’ensemble des indicateurs de churn
+- Visualisation des profils clients churners
+- Évaluation du modèle (matrice de confusion, AUC, F1-score)
+- Analyse des variables les plus influentes
+- Simulation personnalisée de churn pour un nouveau client
+
+## 🚀 Lancer localement
+
+```
+pip install -r requirements.txt
+streamlit run telco_churn.py
+```
